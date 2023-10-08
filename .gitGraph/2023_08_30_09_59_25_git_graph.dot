@@ -1,0 +1,13 @@
+digraph auto {
+	graph [bgcolor=transparent]
+	node [fixedsize=true style=filled width=0.95]
+	"3ad59b658aaaf5e5984475e366889fb5d7840766" [label="3ad59b6" fillcolor="#9ccc66"]
+	"85831dc57269764375f1f21b06f302c2ec11f429" [label="85831dc" fillcolor="#bc9b8f"]
+	"85831dc57269764375f1f21b06f302c2ec11f429" -> "3ad59b658aaaf5e5984475e366889fb5d7840766"
+	"727efeb2ab1264fcb4f883a9687e7ca22f250ccf" [label="727efeb" fillcolor="#85d5fa"]
+	"727efeb2ab1264fcb4f883a9687e7ca22f250ccf" -> "85831dc57269764375f1f21b06f302c2ec11f429"
+	master [label=master fillcolor="#9999ff"]
+	master -> "727efeb2ab1264fcb4f883a9687e7ca22f250ccf"
+	HEAD [label=HEAD fillcolor="#e6ccff"]
+	HEAD -> master
+}
